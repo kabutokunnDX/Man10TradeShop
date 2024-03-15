@@ -1,0 +1,16 @@
+name: Man10TradeShop
+version: '${project.version}'
+main: kbtdx.man10tradeshop.Man10TradeShop
+api-version: '1.20'
+depend: [Vault]
+commands:
+  mts:
+    aliases:
+      - tradeshop
+
+permissions:
+  mts.op:
+    default: op
+  mts.user:
+    default: true
+
